@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.imgur.com/XhOvfOE.png",
+        "title": "Building a Responsive Web App with React and Redux",
+        "author": "John Doe",
+        "author_image": "https://i.imgur.com/Efd8KbK.png",
+        "posted_date": "2022-01-01T00:00:00Z",
+        "reading_time": 60,
+        "hashtags": ["web development", "React", "Redux"]
+    },
+    
+    {
+        "id": 2,
+        "cover": "https://i.imgur.com/0Ocr31E.png",
+        "title": "Mastering JavaScript Algorithms and Data Structures",
+        "author": "Jane Smith",
+        "author_image": "https://i.imgur.com/R97Yq0v.jpg",
+        "posted_date": "2022-02-01T00:00:00Z",
+        "reading_time": 80,
+        "hashtags": ["JavaScript", "algorithms", "data structures"]
+    },
+    
+    {
+        "id": 3,
+        "cover": "https://i.imgur.com/xrqovJC.jpg",
+        "title": "Deep Learning with TensorFlow and Keras",
+        "author": "Bob Johnson",
+        "author_image": "https://i.imgur.com/hl2QYgI.jpg",
+        "posted_date": "2022-03-01T00:00:00Z",
+        "reading_time": 90,
+        "hashtags": ["AI", "deep learning", "TensorFlow", "Keras"]
+    },
+    
+    {
+        "id": 4,
+        "cover": "https://i.imgur.com/kqNYKTd.png",
+        "title": "Design Patterns for Software Architecture",
+        "author": "Alice Brown",
+        "author_image": "https://i.imgur.com/CLevXcd.jpg",
+        "posted_date": "2022-04-01T00:00:00Z",
+        "reading_time": 100,
+        "hashtags": ["software architecture", "design patterns"]
+    }
+]
