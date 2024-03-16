@@ -17,9 +17,18 @@ function App() {
     // console.log(blog);
   };
 
-  const handleMarkAsRead = time =>{
+  const handleMarkAsRead = (id, time) =>{
     // console.log('Marking as read', time)
+
+    //Another way : 
+    // const newReadingTime = readingTime + time;
+    // setReadingTime(newReadingTime);
+
     setReadingTime(readingTime + time);
+    //remove the read blog from bookmark
+    // console.log('Removing bookmarked', id)
+    const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
+    setBookmarks(remainingBookmarks);
   }
 
   return (
